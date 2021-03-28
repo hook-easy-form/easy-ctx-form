@@ -1,0 +1,11 @@
+node_modules
+
+lib
+build
+coverage
+client/node_modules
+client/.next
+declaration
+
+.vscode
+.DS_store
