@@ -19,12 +19,12 @@ type InputCtxProps = {
   id: number;
   name: string;
   type: string;
-  value: string;
+  value: any;
 };
 
 type InputProps = {
   type?: string;
-  value?: string;
+  value?: any;
 };
 
 export default function useField(fieldName: string, options?: InputProps) {

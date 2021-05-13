@@ -8,7 +8,7 @@
     "build:full": "npm run clean && npm run build:ts && npm run build:rollup",
     "build:rollup": "rollup -c",
     "build:ts": "tsc -p .",
-    "cp-to-client": "cp -R lib client/src",
+    "cp-to-client": "cp -R lib ../client/src",
     "dev": "nodemon --watch src -e ts,tsx, --exec npm run dev:start",
     "clean": "rimraf lib/* && rimraf build/*",
     "dev:start": "npm run clean && npm run build:ts && npm run cp-to-client",
