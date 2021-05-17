@@ -8,6 +8,3 @@ declaration
 
 .vscode
 .DS_store
-
-# in progress
-src/hooks/useFieldArray.ts
