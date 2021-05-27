@@ -1,6 +1,6 @@
 {
   "name": "easy-ctx-form",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Easy manager for forms in react with context",
   "main": "build/index.js",
   "module": "build/index.es.js",

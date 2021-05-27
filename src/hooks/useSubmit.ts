@@ -14,7 +14,7 @@ export default function useSubmit() {
     if (event.persist) event.persist();
     if (event.preventDefault) event.preventDefault();
 
-    if (!s.valid && validate && typeof validate === 'function') {
+    if ((!s.anyTouched || !s.valid) && validate && typeof validate === 'function') {
       dispatch({ type: SET_VALIDATION, payload: validate(s.values) });
     } else {
       if (onSubmit && typeof onSubmit === 'function') onSubmit(s.values);
